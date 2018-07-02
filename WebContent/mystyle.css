@@ -1,0 +1,204 @@
+
+h3,li
+{
+	font-family: 'Lobster', cursive;
+}
+.container
+{
+	width:100%;/*sets full page to 100%*/
+}
+.wrapper
+{
+
+	width:1000px;/*sets width of the text data*/
+	margin:auto;/*automatically sets the margin to left and right*/
+}
+
+.dark
+{
+  background-color:green;/*sets background color to dark div class*/
+  color:white;/*sets text color to white*/
+}
+.light
+{
+  background-color:grey;/*sets background color to light div class*/	
+}
+
+#top_left
+{
+	display:inline-block;/*sets exact width to the data instead of cover full potion*/
+	/*border:1px solid red;*/
+}
+#top_right
+{
+ float:right;/* sets data to the right side*/	
+}
+#top_div
+{
+	height:40px;
+	line-height:40px;/*brings text exact in middle vertically*/
+}
+#logo_left
+{
+	/*border:1px solid red;*/
+	display:inline-block;
+	width:500px;
+
+}
+#logo_rigth
+{
+	float:right;
+	/*border:1px solid red;*/
+	margin-top:80px;
+}
+
+#textstyle
+{
+	height:30px;
+	border-radius:8px;/*makes border round shape*/
+}
+
+#buttonstyle
+{
+	background-color:green;
+	color:white;
+	padding:7px;
+	border-radius:8px;
+	width:70px;
+	border:1px solid green;
+}
+
+#clear
+{
+	clear:both;/*both left or right float clear*/
+}
+#sliderimage img
+{
+	width:968px;
+	height:400px;
+	padding:15px;
+	border:1px solid red;
+	box-shadow:10px 10px 15px red;/* to bring shadow color vertical,horizontal, bluur,color*/
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+ul
+
+{
+	background-color:none;
+}
+
+ul li
+
+{
+	background-color:none;
+	width:190px;
+	display:inline-block;
+	height:35px;
+	line-height:35px;
+	text-align:center;/*to bring text center*/
+}	
+
+ul li a
+
+{
+	color:white;/*menu text color*/
+	text-decoration:none;/*to remove underline*/
+	display:block;/*to display whole block as hand shape*/
+}
+
+ul li a:hover
+{
+	background-color:orange;/*on mouse over color will be orange */
+	color:black;
+}
+
+h3
+{
+	text-align:center;
+	margin-top:20px;
+	text-transform:uppercase;
+}
+p
+{
+	text-align;justify;
+}	
+#text_image
+{
+	width:150px;
+	margin:auto;
+	cursor:pointer;
+}
+#text1
+{
+	width:290px;
+	display:inline-block;
+	margin:5px;
+	padding:15px;
+	box-shadow: 5px 5px 10px red;
+	margin-bottom:15px;
+}
+#bottom_div_left
+{
+	
+	display:inline-block;
+	width:650px;
+	margin-top:15px;
+}
+
+#bottom_div_right
+{
+	
+	width:310px;
+	float:right;
+	margin-top:15px;
+}
+#bottom_div_left img
+{
+	border:1px solid red;
+	border-radius:5px;
+	padding:5px;
+	margin:5px;
+	width:250px;
+	height:250px;
+}
+
+#latest_news img
+
+{
+	width:90px;
+	height:90px;
+	padding:3px;
+	margin:3px;
+	border:1px solid red;
+	border-radius:5px;
+}
+#logo_left img
+{
+	width:290px;
+	height:190px;
+}
+#text_image img
+{
+    width:190px;
+	height:190px;	
+}
+#latest_news
+{
+	height:140px;
+}
+
+#bottom_left_head
+{
+	display:inline-block;
+}
+
+#footer
+{
+	width:290px;
+	display:inline-block;
+	margin:5px;
+	padding:15px;
+	margin-bottom:15px;
+}

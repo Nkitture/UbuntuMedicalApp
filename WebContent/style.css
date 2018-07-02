@@ -1,0 +1,240 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+/* Full-width input fields */
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+body
+  {
+	 background-color: #F5F5DC;
+  }
+  
+h2
+{
+	text-align:center;
+	padding:230px;
+}
+#button1
+{
+	background-color: #4CAF50;
+    color: white;
+	margin:auto;
+	margin-top:-150px;
+	display:block;
+	border: none;
+    cursor: pointer;
+	text-align:center;
+	padding:15px;
+	width:15%;
+}
+
+/* Set a style for all buttons */
+button#bt3{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer img{
+    /*margin: 10px 0px 0px 150px;
+	width: 40%;*/
+    border-radius: 50%;
+	display:block;
+	margin:auto;
+}
+
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /*Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left:0px;
+    top: 0px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+h3,li
+{
+	font-family: 'Lobster', cursive;
+}
+.firstcontainer
+{
+	width:100%;/*sets full page to 100%*/
+	padding: 16px;
+}
+.wrapper
+{
+
+	width:1000px;/*sets width of the text data*/
+	margin:auto;/*automatically sets the margin to left and right*/
+}
+
+.dark
+{
+  background-color:#C0C1A3;/*sets background color to dark div class*/
+  color:white;/*sets text color to white*/
+}
+.light
+{
+  background-color:#839192;/*sets background color to light div class*/	
+}
+#top_left
+{
+	display:inline-block;/*sets exact width to the data instead of cover full potion*/
+	/*border:1px solid red;*/
+}
+#top_right
+{
+ float:right;/* sets data to the right side*/	
+}
+#top_div
+{
+	height:40px;
+	line-height:40px;/*brings text exact in middle vertically*/
+}
+
+
+
+#clear
+{
+	clear:both;/*both left or right float clear*/
+}
+
+
+
+ul
+
+{
+	background-color:none;
+}
+
+	
+.dropdown
+{
+	position:relative;
+	display:inline-block;
+	
+}
+.dropbtn
+{
+    background-color:none;
+	border:none;
+	cursor:pointer;
+	font-size:16px;
+	padding:40px;
+}
+.dropdown-content
+{
+	display:none;
+	position: absolute;
+	background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	
+}
+.dropdown-content a
+{
+	display:block;
+	background-color:none;
+	text-decoration:none;
+	margin-left:18px;
+}
+.dropdown:hover .dropdown-content
+{
+	display:block;
+	
+}
