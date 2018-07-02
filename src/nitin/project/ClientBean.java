@@ -1,5 +1,5 @@
 package nitin.project;
-
+//--------
 public class ClientBean {
 
 	private String cl_id ,cl_name,cl_surname,cl_mobile,cl_address,cl_city;
